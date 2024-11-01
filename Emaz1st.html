@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     
+        .name{
+            font-size: 12px;
+            background-color: black;
+            color: white;
+            padding: 10px 5px;
+        }
+      .nav{
+        justify-content: right;
+        position: sticky;
+        top: 5px;
+        border-radius: 5px;
+        display: flex;
+        background-color: white;
+        width: 100%;
+        align-items: center;
+      
+      }
+      
+      .navbar ul{
+        display: flex;
+      }
+      ul li{
+        text-decoration: none;
+        list-style: none;
+        margin-right: 50px;
+      }
+      ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .content{
+        /* border: 2px solid red; */
+        /* height: 300px; */
+        display: flex;
+        background-color: rgb(168, 158, 138);
+      }
+      .cont{
+        /* border: 2px solid black; */
+        width: 650px;
+        text-align: center;
+        margin-left: 100px;
+      }
+      .content2{
+        /* border: 2px solid red; */
+        text-align: center;
+        margin-left: 320px;
+        height: 250px;
+        width: 700px;
+      }
+      .help{
+        background-color: rgb(168, 158, 138);
+
+        /* border: 2px solid red; */
+        display: flex;
+
+      }
+      .cont2{
+        /* border: 2px solid black; */
+        width: 650px;
+        text-align: center;
+        margin-left: 100px;
+      }
+      .hr{
+        margin-top: 30px;
+        width: 750px;
+      }
+      .service{
+        background-color: black;
+        /* border: 2px solid red; */
+        display: flex;
+        /* align-items: center; */
+        text-align: center;
+        color: white;
+
+      }
+      .serv1{
+        /* border: 2px solid rgb(250, 248, 248); */
+        align-items: center;
+        padding-bottom: 5px;
+      }
+      .serv2{
+        padding-bottom: 5px;
+      }
+      .serv3{
+        padding-bottom: 5px;
+      }
+      .imge1{
+        height: 300px;
+        width: 300px;
+        align-items: center;
+        border-radius: 10px;
+        /* margin-left: 70px; */
+      }
+      .imge2{
+        width: 250px;
+        height: 250px;
+        /* margin-left: 100px; */
+        margin-left: 200px;
+        border-radius: 250px;
+        margin-top: 4px;
+      }
+      .imge3{
+        width: 250px;
+        height: 250px;
+        margin-left: 150px;
+        border-radius: 250px;
+        margin-top: 4px;
+      }
+      .footer{
+        align-items: center;
+        margin-top: 11px;
+        display: flex;
+        background-color: black;
+        color: white;
+      }
+      .btn{
+        background-color: red;
+      }
+      @media screen and  (max-width: 600px)
+        {
+          .name{
+            font-size: 8px;
+            background-color: black;
+            color: white;
+            padding: 10px 5px;
+        }
+        }
+      
+  </style>
+</head>
+<body>
+  <div class="name">
+    <h1>First Assignment</h1>
+  </div>
+ <div class="nav">
+    <div class="navbar">
+        <ul>
+            <li><a href="Emaz1st.html">Home</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </div>
+    <div class="srch">
+        <input class="search" type="search" placeholder="Search Here">
+    </div>
+ </div>
+<div class="content">
+    <div class="cont">
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a veniam aut repellat sed numquam sunt qui est fugit, rerum tempora dolores earum, in doloribus delectus sequi, cupiditate id maiores!</p>
+        <button>OK</button>
+    </div>
+    <div class="img1">
+        <img src="sunset.png" alt="This is an image" class="imge3">
+    </div>
+</div>
+<div class="content2">
+    <h2>Heading</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nemo ea dicta expedita quas dignissimos cupiditate esse minima odit, eligendi magni accusantium deserunt rem architecto officiis, sint doloremque aliquam aspernatur.</p>
+    <button>Agree</button>
+</div>
+<div class="help">
+    <div class="img2">
+        <img src="sunset.png" alt="This is an image" class="imge2">
+    </div>
+    <div class="cont2">
+        <h2>Heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla totam fugit reiciendis voluptatibus, eos nihil explicabo praesentium doloribus, accusamus voluptas, et natus corporis ipsa. Inventore.</p>
+        <button>Agree</button>
+    </div>
+</div>
+<hr class="hr">
+<h2 style="text-align: center;">Our services</h2>
+<div class="service">
+    <div class="serv1">
+        <img src="sunset.png" alt="picture1" class="imge1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem asperiores vel hic fuga ducimus dicta facilis illo placeat, unde impedit facere libero maxime commodi. Delectus aspernatur repellendus veritatis perspiciatis.</p>
+        <button class="btn">Add to card</button>
+    </div>
+    <div class="serv2">
+        <img src="sunset.png" alt="picture2" class="imge1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem asperiores vel hic fuga ducimus dicta facilis illo placeat, unde impedit facere libero maxime commodi. Delectus aspernatur repellendus veritatis perspiciatis.</p>
+        <button class="btn">Add to card</button>
+    </div>
+    <div class="serv3">
+        <img src="sunset.png" alt="picture3" class="imge1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem exercitationem asperiores vel hic fuga ducimus dicta facilis illo placeat, unde impedit facere libero maxime commodi. Delectus aspernatur repellendus veritatis perspiciatis.</p>
+        <button class="btn">Add to card</button>
+    </div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos doloremque similique perferendis, sed fugiat laudantium deleniti obcaecati harum rem repellendus iusto doloribus dolore tenetur, sequi exercitationem beatae officia ullam?</p>
+</body>
+</html>
